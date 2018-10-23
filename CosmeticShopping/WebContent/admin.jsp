@@ -10,11 +10,13 @@
 <jsp:include page="header.jsp"/> <br> <br> <br>
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <center> <input type="button" value="ADD PRODUCT"> <a href="addproducts.jsp"> ADD PRODUCT</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<input type="button" value="ADD CATEGORY"/>  </center> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> <br> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <center> <a href="product.jsp">
+<input type="button" value="MANAGE PRODUCT"> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="category.jsp">
+<input type="button" value="ADD CATEGORY"/> </a> </center> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> <br> <br>
 
 <jsp:include page="footer.jsp"/>
 </body>
 </html>
 
-<a href="addproducts.jsp"></a>
+
